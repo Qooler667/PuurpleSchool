@@ -1,0 +1,88 @@
+.about-school {
+
+    padding: 100px 0;
+    background-color: var(--color-bg-light);
+}
+
+.about-school__header>p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 48px;
+}
+
+.courses__cards-wrapper {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 70px;
+}
+
+.about-school__card {
+    width: 360px;
+    height: 188px;
+    padding: 48px 24px;
+    text-align: center;
+    border-radius: var(--border10);
+    background-color: var(--card-footer-color);
+
+}
+
+span {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55.2px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(93.33deg, #D77BE6 9.26%, #BE63E6 42.32%, #6C38CC 104.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 16px;
+}
+
+/* BOTTOM CARDS */
+.bottom-cards>h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    margin-bottom: 32px;
+}
+
+.wrapper__bottom-card {
+    display: flex;
+    gap: 70px;
+}
+
+.bottom-card {
+    width: 360px;
+    height: 113px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 24px 32px;
+    background-color: var(--card-footer-color);
+}
+
+.bottom-card-left {
+    font-weight: 400;
+    font-size: 54px;
+}
+
+.bottom-card-right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.bottom-card-right>p {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.44px;
+}
+
+.bottom-card-right>img {
+    margin-right: 23px;
+}

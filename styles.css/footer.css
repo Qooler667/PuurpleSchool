@@ -1,0 +1,35 @@
+.footer {
+    background-color: var(--color-footer);
+    position: relative;
+    width: calc(100% + 292px);
+    left: -146px;
+    padding: 100px 146px;
+}
+
+.footer__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.footer__social_ikons {
+    margin: 0;
+}
+
+.footer__wrapper_lists {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 48px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__list>li:nth-child(1) {
+    margin-bottom: 6px;
+    color: var(--color-links);
+}

@@ -1,0 +1,58 @@
+:root {
+    --color-text: #efefef;
+    --color-bg-light: #1E1F29;
+    --border-color: #4D5064;
+    --hover-color: #AFB2BF;
+    --bg-button-color: #6C38CC;
+    --color-bg-dark: #16171d;
+    --color-links: #E47AD5;
+    --card-footer-color: #2e2d3d;
+    --color-footer: #101114;
+    --border8: 8px;
+    --border10: 10px;
+    --margin-centr: 0 auto;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../fonts/Rubik/static/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url(../fonts/FiraSansFont/FiraSans-Regular.ttf);
+}
+
+html {
+
+    margin: var(--margin-centr);
+    color: var(--color-text);
+    padding: 10px;
+    background-color: #1e1e1e;
+}
+
+body {
+    max-width: 1512px;
+    position: relative;
+    padding: 0 146px;
+    font-family: "Fira Sans";
+    margin: var(--margin-centr);
+    background-color: var(--color-bg-light);
+}
+
+.section__titles {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section__titles>a {
+    color: var(--color-links);
+}
+
+.section__titles>h2 {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 55.2px;
+    margin-bottom: 32px;
+}
