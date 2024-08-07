@@ -28,12 +28,20 @@
     background-color: var(--color-bg-light);
 }
 
+.card-content__wrapper {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
 .courses__card {
     width: 360px;
     border-radius: var(--border10);
 }
 
 .course__card-content {
+    display: flex;
+    flex-direction: column;
     padding: 24px;
     background-color: var(--color-bg-light);
 }
