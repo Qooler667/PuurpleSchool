@@ -1,0 +1,117 @@
+ .pop-up__menu {
+     position: absolute;
+     top: 75px;
+     left: 175px;
+     border: .5px solid white;
+     flex-direction: column;
+     padding: 48px;
+     background-color: var(--color-bg-light);
+     display: none;
+ }
+
+ .pop-up__menu>h2 {
+     font-weight: 400;
+     font-size: 36px;
+     line-height: 43.2px;
+     text-align: center;
+     margin-bottom: 32px;
+ }
+
+ .form-wrapper {
+     position: relative;
+     display: flex;
+     margin-bottom: 16px;
+
+ }
+
+ .form__input-wrapper {
+     position: relative;
+     border-radius: var(--border10);
+ }
+
+ .menu__input {
+     width: 697px;
+     padding: 17px 16px;
+     border: none;
+     border-radius: var(--border10);
+     background-color: var(--color-hover-button);
+ }
+
+
+ .form__input_img {
+     display: block;
+     position: absolute;
+     top: 12px;
+     left: 17px;
+     pointer-events: none;
+ }
+
+ .menu__input::placeholder {
+     display: block;
+     position: absolute;
+     top: 19px;
+     left: 50px;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 14.4px;
+     color: #AFB2BF;
+ }
+
+ .input-sample {
+     display: block;
+     position: absolute;
+     top: 24px;
+     left: 48px;
+     width: 150px;
+     pointer-events: none;
+     display: none;
+     white-space: nowrap;
+ }
+
+ .menu__input-text {
+     display: inline-table;
+     width: 100%;
+     padding: 20px;
+     border: none;
+     border-radius: var(--border10);
+     background-color: var(--color-hover-button);
+ }
+
+ .menu__input-text::placeholder,
+ .menu__input:hover::placeholder {
+     position: absolute;
+     top: 8px;
+ }
+
+ .menu__input:hover::placeholder {
+     display: block;
+     top: 8px;
+ }
+
+ .menu__input:hover~.input-sample {
+     display: block;
+ }
+
+ .menu__input:focus::placeholder {
+     position: absolute;
+     top: 18px;
+     left: 20px;
+ }
+
+ .menu__input:focus~.form__input_img {
+     display: none;
+ }
+
+ .menu__input:focus:hover~.input-sample {
+     display: none;
+ }
+
+ .form__button {
+     display: flex;
+     position: relative;
+     width: 100%;
+     padding: 12px;
+     justify-content: center;
+     border-radius: var(--border10);
+     background-color: var(--bg-button-color);
+ }

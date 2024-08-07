@@ -1,3 +1,7 @@
+.header {
+    position: relative;
+}
+
 .burger-menu {
     display: none;
 }
@@ -24,6 +28,11 @@
     padding: 8px 16px;
 }
 
+.header__menu>li:hover,
+.header-top__button:hover {
+    color: var(--hover-color);
+}
+
 .header_enter {
     display: flex;
     gap: 10px;
@@ -31,16 +40,16 @@
 
 .header-top__button {
     background-color: var(--color-bg-light);
-    border: none;
     font-weight: 400;
     font-size: 18px;
     line-height: 21.6px;
+    padding: 5px;
 }
 
-.header__menu>li:hover,
-.header-top__button:hover {
-    color: var(--hover-color);
+.header-top__button:focus~.pop-up__menu {
+    display: block;
 }
+
 
 .header-bottom {
     padding: 80px 0;
@@ -66,6 +75,10 @@ h1 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 54px;
+    margin-bottom: 32px;
 }
 
 .header-bottom_buttons {
@@ -81,6 +94,10 @@ h1 {
     font-weight: 400;
     font-size: 18px;
     line-height: 21.6px;
+}
+
+.header-bottom_button:hover {
+    color: var(--hover-color);
 }
 
 .header-bottom_button:first-child {
