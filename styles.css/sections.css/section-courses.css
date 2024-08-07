@@ -56,6 +56,11 @@
     margin-bottom: 18px;
 }
 
+.courses__cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .course__card-content_buttons {
     display: flex;
     gap: 10px;
@@ -69,6 +74,10 @@
     font-size: 16px;
     line-height: 19.2px;
     padding: 6px 12px;
+}
+
+.course__card-content_buttons>button:hover {
+    background-color: var(--color-hover-button);
 }
 
 .course__card-content_buttons>button:nth-child(1) {
@@ -97,7 +106,16 @@
     padding: 16px 32px;
     background-color: var(--bg-button-color);
     border-radius: var(--border10);
+    border: 1px solid transparent;
     font-weight: 400;
     font-size: 18px;
     line-height: 21.6px;
+
+}
+
+.course__card-content_footer>button:hover {
+    background-color: var(--color-hover-button);
+    border: 1px solid var(--border-color);
+    box-sizing: border-box;
+
 }

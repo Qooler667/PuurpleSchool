@@ -11,14 +11,15 @@
     <link rel="stylesheet" href="./styles.css/sections.css/section-about-school.css">
     <link rel="stylesheet" href="./styles.css/sections.css/section_social.css">
     <link rel="stylesheet" href="./styles.css/footer.css">
+    <link rel="stylesheet" href="./styles.css/pop-up_menu.css/menu.css">
 
     <title>PoorpleSchool</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="header-top"><a href=""><img src="./images/header-img/logotip-P.Shool.svg"
-                    alt="Логотип PoorpleSchool"></a>
+        <div class="header-top"><a href="#"><img src="./images/header-img/logotip-P.Shool.svg"
+                    alt="Логотип-PoorpleSchool"></a>
             <div>
                 <nav>
                     <ul class="header__menu">
@@ -29,12 +30,46 @@
                     </ul>
                 </nav>
             </div>
-            <div class="header_enter"><img src="./images/header-img/user-ikon.svg" alt="Иконка пользователя"><button
-                    class="header-top__button">Вход</button></div>
+            <div class="header_enter"><img src="./images/header-img/user-ikon.svg" alt="Иконка пользователя">
+                <button class="header-top__button">Вход</button>
+                <div class="pop-up__menu">
+                    <h2>Свяжитесь со мной</h2>
+                    <div class="form-wrapper">
+                        <form class="pop-up__form" action="#" method="post">
+                            <div class="form__input-wrapper">
+                                <input class="menu__input" type="email" placeholder="E-mail">
+                                <img class="form__input_img" src="./images/pop-up.img/message.svg" alt="#">
+                                <p class="input-sample"> 123@Gmail.com</p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-wrapper">
+                        <form class="pop-up__form" action="#" method="post">
+                            <div class="form__input-wrapper">
+                                <input class="menu__input" type="email" placeholder="E-mail">
+                                <img class="form__input_img" src="./images/pop-up.img/telegram.svg" alt="#">
+                                <p class="input-sample"> 123@Gmail.com</p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-wrapper">
+                        <form class="pop-up__form" action="#" method="post">
+                            <div class="form__input-wrapper">
+                                <input class="menu__input " type="email" placeholder="Тема">
+                                <img class="form__input_img" src="./images/pop-up.img/topic.svg" alt="#">
+                                <p class="input-sample">Приобретение курсов</p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-wrapper">
+                        <textarea class="menu__input-text" placeholder="Комментарий:"></textarea>
+                    </div>
+                    <div><button class="form__button">Отправить</button></div>
+                </div>
+            </div>
+
             <img class="burger-menu" src="./images/header-img/burger-menu.svg" alt="Кнопка меню">
         </div>
-        <!-- pop up menu -->
-
         <div class="header-bottom">
             <div class="header-bottom-left-wrapper">
                 <h1>Доступные курсы по<br><span class="header__h1-gradient">Разработке и DevOps</span></h1>
@@ -45,6 +80,7 @@
             </div>
             <img src=" ./images/header-img/img-autor.svg" alt="Видео от автора">
         </div>
+
     </header>
     <section class="courses">
         <div class="course-cards__header">
@@ -61,7 +97,70 @@
                 </ul>
             </nav>
         </div>
-        <div class="courses__cards-wrapper">
+        <div class=".">
+            <div class="courses__card">
+                <div><img src="./images/sections.img/Обложка 4.svg" alt=""></div>
+                <div class="course__card-content">
+                    <div class="course__card-content_title">
+                        <h3>React + Next.js - с нуля</h3>
+                        <p>Антон Ларичев</p>
+                    </div>
+                    <div class="course-time"><img src="./images/sections.img/Time Circle.svg" alt="">
+                        <p>18 часов лекций</p>
+                    </div>
+                    <div class="course__card-content_buttons">
+                        <button><img src="./images/sections.img/Star.svg" alt="">
+                            <p>4.9</p>
+                        </button>
+                        <button>Frontend</button>
+                    </div>
+                </div>
+                <div class="course__card-content_footer">
+                    <p>от 1 890 ₽</p><button>Подробнее</button>
+                </div>
+            </div>
+            <div class="courses__card">
+                <div><img src="./images/sections.img/Обложка 4.svg" alt=""></div>
+                <div class="course__card-content">
+                    <div class="course__card-content_title">
+                        <h3>React + Next.js - с нуля</h3>
+                        <p>Антон Ларичев</p>
+                    </div>
+                    <div class="course-time"><img src="./images/sections.img/Time Circle.svg" alt="">
+                        <p>18 часов лекций</p>
+                    </div>
+                    <div class="course__card-content_buttons">
+                        <button><img src="./images/sections.img/Star.svg" alt="">
+                            <p>4.9</p>
+                        </button>
+                        <button>Frontend</button>
+                    </div>
+                </div>
+                <div class="course__card-content_footer">
+                    <p>от 1 890 ₽</p><button>Подробнее</button>
+                </div>
+            </div>
+            <div class="courses__card">
+                <div><img src="./images/sections.img/Обложка 4.svg" alt=""></div>
+                <div class="course__card-content">
+                    <div class="course__card-content_title">
+                        <h3>React + Next.js - с нуля</h3>
+                        <p>Антон Ларичев</p>
+                    </div>
+                    <div class="course-time"><img src="./images/sections.img/Time Circle.svg" alt="">
+                        <p>18 часов лекций</p>
+                    </div>
+                    <div class="course__card-content_buttons">
+                        <button><img src="./images/sections.img/Star.svg" alt="">
+                            <p>4.9</p>
+                        </button>
+                        <button>Frontend</button>
+                    </div>
+                </div>
+                <div class="course__card-content_footer">
+                    <p>от 1 890 ₽</p><button>Подробнее</button>
+                </div>
+            </div>
             <div class="courses__card">
                 <div><img src="./images/sections.img/Обложка 4.svg" alt=""></div>
                 <div class="course__card-content">
@@ -219,7 +318,7 @@
     </section>
     <footer class="footer">
         <div class="footer__header">
-            <img src="./images/header-img/logotip-P.Shool.svg" alt="Логотип-PurpleSchool">
+            <a href="#"><img src="./images/header-img/logotip-P.Shool.svg" alt="Логотип-PurpleSchool"></a>
             <div class="footer__social_ikons social_icons">
                 <img src="./images/social-section.img/youtube.svg" alt="#">
                 <img src="./images/social-section.img/Telegramm-Icon.svg" alt="">
@@ -249,6 +348,7 @@
         <p>PurpleSchool © 2020 - 2023 Все права защищены
         </p>
     </footer>
+
 </body>
 
 </html>
