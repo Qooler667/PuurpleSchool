@@ -6,10 +6,17 @@
     padding: 100px 146px;
 }
 
+.courses__header_link {
+    color: var(--color-links);
+}
+
 .courses__menu_list {
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
+    font-family: "FiraSans";
+    font-size: 18px;
+    line-height: 21.6px;
 }
 
 .courses__menu_list>li {
@@ -46,15 +53,12 @@
     background-color: var(--color-bg-light);
 }
 
-.course__card-content_title>h3 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28.8px;
-    margin-bottom: 4px;
-}
-
-.course__card-content_title>p {
+.course__card-content_title {
     margin-bottom: 18px;
+    font-family: "FiraSans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
 }
 
 .course-time {
@@ -62,6 +66,10 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 18px;
+    font-family: "FiraSans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
 }
 
 .courses__cards-wrapper {
@@ -72,16 +80,18 @@
 .course__card-content_buttons {
     display: flex;
     gap: 10px;
+
 }
 
 .course__card-content_buttons>button {
     background-color: var(--color-bg-light);
     border: 1px solid var(--border-color);
     border-radius: 17px;
+    padding: 6px 12px;
+    font-family: "FiraSans";
     font-weight: 400;
     font-size: 16px;
     line-height: 19.2px;
-    padding: 6px 12px;
 }
 
 .course__card-content_buttons>button:hover {
@@ -111,10 +121,11 @@
 }
 
 .course__card-content_footer>button {
-    padding: 16px 32px;
+    padding: 10px 25px;
     background-color: var(--bg-button-color);
     border-radius: var(--border10);
     border: 1px solid transparent;
+    font-family: "FiraSans";
     font-weight: 400;
     font-size: 18px;
     line-height: 21.6px;

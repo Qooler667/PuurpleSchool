@@ -17,15 +17,16 @@
     display: flex;
     gap: 40px;
     align-items: center;
-    font-weight: 400;
+    font-family: "FiraSans";
     font-size: 18px;
+    font-weight: 400;
     line-height: 21.6px;
 }
 
-.header__menu>Li:first-child {
+.header__menu>li:first-child {
+    padding: 8px 16px;
     border: 1px solid var(--border-color);
     border-radius: var(--border8);
-    padding: 8px 16px;
 }
 
 .header__menu>li:hover,
@@ -40,9 +41,6 @@
 
 .header-top__button {
     background-color: var(--color-bg-light);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21.6px;
     padding: 5px;
 }
 
@@ -60,13 +58,6 @@
 
 .header-bottom-left-wrapper {
     flex-direction: column;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 54px;
-    line-height: 54px;
-    margin-bottom: 32px;
 }
 
 .header__h1-gradient {
@@ -91,9 +82,9 @@ h1 {
     border: 1px solid var(--border-color);
     border-radius: var(--border10);
     padding: 16px 32px;
-    font-weight: 400;
+    /* font-weight: 400;
     font-size: 18px;
-    line-height: 21.6px;
+    line-height: 21.6px; */
 }
 
 .header-bottom_button:hover {
