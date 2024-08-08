@@ -6,6 +6,13 @@
     padding: 100px 146px;
 }
 
+.footer>p {
+    font-family: "FiraSans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .footer__header {
     display: flex;
     align-items: center;
@@ -27,6 +34,10 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    font-family: "FiraSans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
 }
 
 .footer__list>li:nth-child(1) {
