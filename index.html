@@ -13,13 +13,16 @@
     <link rel="stylesheet" href="./styles.css/sections.css/section_social.css">
     <link rel="stylesheet" href="./styles.css/footer.css">
     <link rel="stylesheet" href="./styles.css/pop-up_menu.css/menu.css">
+    <link rel="stylesheet" href="./styles.css/@media_style.css/@media_header.css">
+    <link rel="stylesheet" href="./styles.css/@media_style.css/@_cources-section.css">
+    <link rel="stylesheet" href="./styles.css/@media_style.css/@_about-school.css">
 
     <title>PoorpleSchool</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="header-top"><a href="#"><img src="./images/header-img/logotip-P.Shool.svg"
+        <div class="header-top"><a href="#"><img class="img_logo" src="./images/header-img/logotip-P.Shool.svg"
                     alt="Логотип-PoorpleSchool"></a>
             <div>
                 <nav>
@@ -32,7 +35,7 @@
                 </nav>
             </div>
             <div class="header_enter"><img src="./images/header-img/user-ikon.svg" alt="Иконка пользователя">
-                <button class="header-top__button text-average">Вход</button>
+                <button class="header-top__button  ">Вход</button>
                 <div class="pop-up__menu">
                     <h2>Свяжитесь со мной</h2>
                     <div class="form-wrapper">
@@ -68,121 +71,132 @@
                     <div><button class="form__button">Отправить</button></div>
                 </div>
             </div>
-
-            <img class="burger-menu" src="./images/header-img/burger-menu.svg" alt="Кнопка меню">
+            <button class="burger-menu"><img src="./images/header-img/burger-menu.svg" alt="Кнопка меню"></button>
         </div>
         <div class="header-bottom">
             <div class="header-bottom-left-wrapper">
-                <h1>Доступные курсы по<br><span class="header__h1-gradient">Разработке и DevOps</span></h1>
+                <div class="wrapper__h1">
+                    <h1>Доступные курсы по <br><span class="header__h1-gradient">
+                            Разработке и DevOps</span></h1>
+                </div>
                 <div class="header-bottom_buttons">
                     <button class="header-bottom_button">Выбрать курс</button>
-                    <button class="header-bottom_button text-average">О школе</button>
+                    <button class="header-bottom_button">О школе</button>
                 </div>
             </div>
-            <img src=" ./images/header-img/img-autor.svg" alt="Видео от автора">
+            <div class="header-bottom-right-wrapper">
+                <img class="img-video" src="./images/header-img/img-autor.svg" alt="Видео от автора">
+            </div>
         </div>
     </header>
     <section class="courses">
-        <div class="course-cards__header">
-            <div class="section__titles"><a class="courses__header_link" href="#">Выбрать курс</a>
-                <h2>Каталог курсов</h2>
+        <div class="test">
+            <div class="course-cards__header">
+                <div class="section__titles"><a class="courses__header_link" href="#">Выбрать курс</a>
+                    <h2>Каталог курсов</h2>
+                </div>
+                <nav>
+                    <ul class="courses__menu_list">
+                        <li><a href="">Все</a></li>
+                        <li><a href="">Frontend</a></li>
+                        <li><a href="">Backend</a></li>
+                        <li><a href="">DevOps</a></li>
+                        <li><a href="">Soft Skills</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul class="courses__menu_list">
-                    <li><a href="">Все</a></li>
-                    <li><a href="">Frontend</a></li>
-                    <li><a href="">Backend</a></li>
-                    <li><a href="">DevOps</a></li>
-                    <li><a href="">Soft Skills</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="card-content__wrapper">
-            <div class="courses__card">
-                <div><img src="./images/sections.img/Обложка 4.svg" alt=""></div>
-                <div class="course__card-content">
-                    <div class="course__card-content_title">
-                        <h3>React + Next.js - с нуля</h3>
-                        <p>Антон Ларичев</p>
+            <div class="card-content__wrapper">
+                <div class="courses__card">
+                    <div><img class="courses__card_img" src="./images/sections.img/Обложка 4.svg" alt=""></div>
+                    <div class="course__card-content">
+                        <div class="course__card-content_title">
+                            <h3>React + Next.js - с нуля</h3>
+                            <p>Антон Ларичев</p>
+                        </div>
+                        <div class="course-time"><img src="./images/sections.img/Time Circle.svg" alt="">
+                            <p>18 часов лекций</p>
+                        </div>
+                        <div class="course__card-content_buttons">
+                            <button><img src="./images/sections.img/Star.svg" alt="#">
+                                <p>4.9</p>
+                            </button>
+                            <button>Frontend</button>
+                        </div>
                     </div>
-                    <div class="course-time"><img src="./images/sections.img/Time Circle.svg" alt="">
-                        <p>18 часов лекций</p>
-                    </div>
-                    <div class="course__card-content_buttons">
-                        <button><img src="./images/sections.img/Star.svg" alt="#">
-                            <p>4.9</p>
-                        </button>
-                        <button>Frontend</button>
+                    <div class="course__card-content_footer">
+                        <p>от 1 890 ₽</p>
+                        <button>Подробнее</button>
                     </div>
                 </div>
-                <div class="course__card-content_footer">
-                    <p>от 1 890 ₽</p>
-                    <button>Подробнее</button>
-                </div>
-            </div>
-            <div class="courses__card">
-                <div><img src="./images/sections.img/Обложка 4.svg" alt=""></div>
-                <div class="course__card-content">
-                    <div class="course__card-content_title">
-                        <h3>React + Next.js - с нуля</h3>
-                        <p>Антон Ларичев</p>
+                <div class="courses__card">
+                    <div><img class="courses__card_img" src="./images/sections.img/Обложка 4.svg" alt=""></div>
+                    <div class="course__card-content">
+                        <div class="course__card-content_title">
+                            <h3>React + Next.js - с нуля</h3>
+                            <p>Антон Ларичев</p>
+                        </div>
+                        <div class="course-time"><img src="./images/sections.img/Time Circle.svg" alt="">
+                            <p>18 часов лекций</p>
+                        </div>
+                        <div class="course__card-content_buttons">
+                            <button><img src="./images/sections.img/Star.svg" alt="">
+                                <p>4.9</p>
+                            </button>
+                            <button>Frontend</button>
+                        </div>
                     </div>
-                    <div class="course-time"><img src="./images/sections.img/Time Circle.svg" alt="">
-                        <p>18 часов лекций</p>
-                    </div>
-                    <div class="course__card-content_buttons">
-                        <button><img src="./images/sections.img/Star.svg" alt="">
-                            <p>4.9</p>
-                        </button>
-                        <button>Frontend</button>
-                    </div>
-                </div>
-                <div class="course__card-content_footer">
-                    <p>от 1 890 ₽</p><button>Подробнее</button>
-                </div>
-            </div>
-            <div class="courses__card">
-                <div><img src="./images/sections.img/Обложка 4.svg" alt=""></div>
-                <div class="course__card-content">
-                    <div class="course__card-content_title">
-                        <h3>React + Next.js - с нуля</h3>
-                        <p>Антон Ларичев</p>
-                    </div>
-                    <div class="course-time"><img src="./images/sections.img/Time Circle.svg" alt="">
-                        <p>18 часов лекций</p>
-                    </div>
-                    <div class="course__card-content_buttons">
-                        <button><img src="./images/sections.img/Star.svg" alt="">
-                            <p>4.9</p>
-                        </button>
-                        <button>Frontend</button>
+                    <div class="course__card-content_footer">
+                        <p>от 1 890 ₽</p><button>Подробнее</button>
                     </div>
                 </div>
-                <div class="course__card-content_footer">
-                    <p>от 1 890 ₽</p><button>Подробнее</button>
+                <div class="courses__card">
+                    <div>
+                        <img class="courses__card_img" src="./images/sections.img/Обложка 4.svg" alt="">
+                    </div>
+                    <div class="course__card-content">
+                        <div class="course__card-content_title">
+                            <h3>React + Next.js - с нуля</h3>
+                            <p>Антон Ларичев</p>
+                        </div>
+                        <div class="course-time"><img src="./images/sections.img/Time Circle.svg" alt="">
+                            <p>18 часов лекций</p>
+                        </div>
+                        <div class="course__card-content_buttons">
+                            <button><img src="./images/sections.img/Star.svg" alt="">
+                                <p>4.9</p>
+                            </button>
+                            <button>Frontend</button>
+                        </div>
+                    </div>
+                    <div class="course__card-content_footer">
+                        <p>от 1 890 ₽</p><button>Подробнее</button>
+                    </div>
                 </div>
-            </div>
-            <div class="courses__card">
-                <div><img src="./images/sections.img/Обложка 4.svg" alt=""></div>
-                <div class="course__card-content">
-                    <div class="course__card-content_title">
-                        <h3>React + Next.js - с нуля</h3>
-                        <p>Антон Ларичев</p>
+                <div class="courses__card">
+                    <div>
+                        <img class="courses__card_img" src="./images/sections.img/Обложка 4.svg" alt="">
                     </div>
-                    <div class="course-time"><img src="./images/sections.img/Time Circle.svg" alt="">
-                        <p>18 часов лекций</p>
+                    <div class="course__card-content">
+                        <div class="course__card-content_title">
+                            <h3>React + Next.js - с нуля</h3>
+                            <p>Антон Ларичев</p>
+                        </div>
+                        <div class="course-time"><img src="./images/sections.img/Time Circle.svg" alt="">
+                            <p>18 часов лекций</p>
+                        </div>
+                        <div class="course__card-content_buttons">
+                            <button><img src="./images/sections.img/Star.svg" alt="">
+                                <p>4.9</p>
+                            </button>
+                            <button>Frontend</button>
+                        </div>
                     </div>
-                    <div class="course__card-content_buttons">
-                        <button><img src="./images/sections.img/Star.svg" alt="">
-                            <p>4.9</p>
-                        </button>
-                        <button>Frontend</button>
+                    <div class="course__card-content_footer">
+                        <p>от 1 890 ₽</p><button>Подробнее</button>
                     </div>
-                </div>
-                <div class="course__card-content_footer">
-                    <p>от 1 890 ₽</p><button>Подробнее</button>
                 </div>
             </div>
+
         </div>
     </section>
     <section class="about-school">
