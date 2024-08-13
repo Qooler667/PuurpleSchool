@@ -25,17 +25,16 @@
 }
 
 html {
-
     margin: var(--margin-centr);
     color: var(--color-text);
-    padding: 10px;
     background-color: #1e1e1e;
 }
 
 body {
+    display: block;
     max-width: 1512px;
     position: relative;
-    padding: 0 146px;
+    padding: 40px 146px;
     font-family: "FiraSans";
     margin: var(--margin-centr);
     background-color: var(--color-bg-light);
@@ -43,30 +42,30 @@ body {
 
 h1 {
     font-weight: 700;
-    font-size: 54px;
-    line-height: 54px;
-    margin-bottom: 32px;
+    font-size: calc(30px + (54 - 30) * ((100vw - 360px) / (1220 - 360)));
+    line-height: calc(36px + (54 - 36) * ((100vw - 360px) / (1220 - 360)));
+    margin-bottom: calc(24px + (32 - 24) * ((100vw - 360px) / (1220 - 360)));
 }
 
 h2 {
     font-weight: 400;
-    font-size: 46px;
-    line-height: 55.2px;
+    font-size: calc(34px + (46 - 34) * ((100vw - 360px) / (1220 - 360)));
+    line-height: calc(40.8px + (55.2 - 40.8) * ((100vw - 360px) / (1220 - 360)));
     margin-bottom: 32px;
 }
 
 h3 {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 28.8px;
+    font-size: calc(21px + (24 - 21) * ((100vw - 360px) / (1220 - 360)));
+    line-height: calc(25.2 + (28.8px - 25.2) * ((100vw - 360px) / (1220 - 360)));
     margin-bottom: 4px;
 }
 
 h4 {
     font-family: "FiraSans";
-    font-size: 36px;
+    font-size: calc(21px + (36 - 21) * ((100vw - 360) / (1220 - 360)));
     font-weight: 400;
-    line-height: 43.2px;
+    line-height: calc(25.2px + (28.8 - 25.2) * ((100vw -360)/ (1220 - 360)));
 }
 
 button {
