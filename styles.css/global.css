@@ -28,6 +28,7 @@ html {
     margin: var(--margin-centr);
     color: var(--color-text);
     background-color: #1e1e1e;
+    margin: var(--margin-centr);
 }
 
 body {
