@@ -24,6 +24,7 @@
 
 .courses__cards-wrapper {
     display: flex;
+    flex-wrap: wrap;
     gap: 70px;
     margin-bottom: 70px;
 }
@@ -63,6 +64,7 @@ span {
 
 .wrapper__bottom-card {
     display: flex;
+    flex-wrap: wrap;
     gap: 70px;
 }
 

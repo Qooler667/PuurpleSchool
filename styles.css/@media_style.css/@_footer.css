@@ -1,0 +1,17 @@
+@media (max-width:1250px) {
+    .footer__header {
+        flex-direction: column;
+    }
+
+    .footer__header-wrapper {
+        margin-bottom: 24px;
+    }
+
+}
+
+@media (max-width:1050px) {
+    .footer__wrapper_lists {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
