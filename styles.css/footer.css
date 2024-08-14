@@ -13,14 +13,19 @@
     line-height: 24px;
 }
 
-.footer__header {
+.footer__header-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 36px;
+
 }
 
-.footer__social_ikons {}
+.footer__social_ikons {
+    align-items: center;
+    margin-bottom: 0;
+}
+
 
 .footer__wrapper_lists {
     display: flex;

@@ -1,10 +1,9 @@
-@media (max-width:1250px) {
-    .footer__header {
-        flex-direction: column;
-    }
+@media (max-width:1300px) {
 
     .footer__header-wrapper {
+        display: flex;
         margin-bottom: 24px;
+        flex-direction: column;
     }
 
 }
