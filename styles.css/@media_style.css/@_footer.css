@@ -3,7 +3,21 @@
     .footer__header-wrapper {
         display: flex;
         margin-bottom: 24px;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .footer__header_logo {
+        margin-right: 30px;
+    }
+
+    .footer__wrapper {
+        display: flex;
         flex-direction: column;
+    }
+
+    .footer__wrapper_lists {
+        justify-content: space-between;
     }
 
 }
