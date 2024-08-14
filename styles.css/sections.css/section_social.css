@@ -33,16 +33,16 @@
 .social-info__wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 34px 32px;
+    padding: calc(24px + (34 - 24) * ((100vw - 360px) / (1512 - 360))) calc(16px + (32 - 16) * ((100vw - 360px) / (1512 - 360)));
     background-color: var(--color-bg-light);
     margin-bottom: 32px;
 }
 
-.social-info__top>p {
+.info__top>p {
     font-weight: "FiraSans";
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: calc(14px + (16 - 14) * ((100vw - 360px) / (1512 - 360)));
+    line-height: calc(19.2px + (24 - 19.2) * ((100vw - 360px) / (1512 - 360)));
 }
 
 .info__top_wrapper {

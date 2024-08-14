@@ -1,0 +1,25 @@
+@media (max-width:1512px) {
+    .test {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .about-school__card,
+    .bottom-card {
+        max-width: calc(312px + (360 - 312) * ((100vw - 360px) / (1512 - 360)));
+    }
+
+    .courses__cards-wrapper,
+    .wrapper__bottom-card {
+        gap: calc(24px + (65 - 24) * ((100vw - 360px) / (1512 - 360)));
+    }
+}
+
+@media (max-width:860px) {
+
+    .about-school__card,
+    .bottom-card {
+        margin: 0 auto;
+    }
+}
